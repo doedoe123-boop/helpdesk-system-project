@@ -1,0 +1,74 @@
+
+/*-- Our offers index page student side --*/
+
+.section-prices {
+    padding: 1.5rem 1rem;
+  }
+  .section-prices .section-header {
+    background-color: #FFF;
+    margin-bottom: 1rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: #555;
+    font-weight: 700;
+    box-shadow: 0 10px 35px -10px rgba(0, 0, 0, .3);
+  }
+  
+  .list-boxs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .list-boxs .card {
+    width: 100%;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+    max-width: 300px;
+  }
+  
+  .list-boxs .card .head,
+  .list-boxs .card .body {
+    background-color: #FFF;
+    padding: 1.5rem 1rem;
+  }
+  
+  .list-boxs .card .head {
+    color: #333;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+   
+    border-bottom: 1px solid #F2F2F2;
+  }
+  
+  
+  .list-boxs .card .body {
+    transform: translateY(-30px);
+    transition: transform .3s linear;
+  }
+  
+  
+  .list-boxs .card p {
+    font-size: .95rem;
+    color: #333;
+    text-align: justify;
+  }
+  
+  
+  @media screen and (max-width: 750px) {
+    .list-boxs {
+      justify-content: space-around;
+    }
+    .list-boxs .card {
+      width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .list-boxs .card {
+      width: 95%;
+    }
+  } 
+
+ 
